@@ -29,8 +29,8 @@
   "bin": "./bin/raneto",
   "main": "./app/index.js",
   "scripts": {
-    "start": "DEBUG=raneto node example/server.js",
-    "start_win": "set DEBUG=raneto&&node example/server.js",
+    "start": "node example/server.js",
+    "start_win": "node example/server.js",
     "test": "npm run lint && mocha --reporter spec test/*.js",
     "gulp": "gulp",
     "lint": "./node_modules/.bin/eslint bin/* app/**/*.js example/**/*.js test/*.js gulpfile.js",
