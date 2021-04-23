@@ -9,7 +9,7 @@ var cookie_parser = require('cookie-parser');
 var body_parser   = require('body-parser');
 var moment        = require('moment');
 var hogan         = require('hogan-express');
-var session       = require('express-session');
+var session       = require('cookie-session');
 var passport      = require('passport');
 
 function initialize (config) {
