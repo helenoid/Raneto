@@ -46,8 +46,8 @@ function initialize (config) {
   var router = express.Router();
 
   // Set IP Address and Port
-  app.set('host', process.env.HOST || '127.0.0.1');
-  app.set('port', process.env.PORT || 3000);
+  app.set('host', process.env.HOST || '0.0.0.0');
+  app.set('port', process.env.PORT || 5000);
 
   // set locale as date and time format
   moment.locale(config.locale);
