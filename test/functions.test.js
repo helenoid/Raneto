@@ -38,7 +38,7 @@ describe('#get_last_modified()', function () {
   });
 
   it('returns last modified from fs', async function () {
-    const file_path = path.join(__dirname, 'content/example-page.md');
+    const file_path = path.join(__dirname, 'content/polymicrobial-systems-page.md');
     const content = fs.readFileSync(file_path, 'utf8');
     const modified = await utils.getLastModified(config, contentProcessors.processMeta(content), file_path);
     const fstime = moment(fs.lstatSync(file_path).mtime).format(config.datetime_format);

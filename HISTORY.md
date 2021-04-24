@@ -1,12 +1,12 @@
 
-# Raneto Changelog
+# Polymicrobial Systems Changelog
 
 2018.04.21 / v0.16.0
 ====================
 
   * **[New]** Better Multi-Language Support!
     - contributed by **@Orhideous**
-  * **[New]** Raneto can be served from non-root path (URI Prefix)
+  * **[New]** Polymicrobial Systems can be served from non-root path (URI Prefix)
     - contributed by **@gugu**
   * **[Misc]** Upgrade to lunr v2.x
     - contributed by **@Orhideous**
@@ -40,7 +40,7 @@
     - **@denisvmedia**
   * **[New]** Marking Active Category in UI
     - **@pmoleri**
-  * **[New]** Export of Raneto class
+  * **[New]** Export of Polymicrobial Systems class
     - **@pmoleri**
   * **[Improvement]** Search with Special Characters
     - **@cassiobsilva**
@@ -102,7 +102,7 @@
     - contributed by **@mohammadrafigh**
   * **[Improvement]** Table of Contents (Dynamic)
     - contributed by **@Sparticuz**
-  * **[Misc]** Merged `Raneto-Core` module into repository
+  * **[Misc]** Merged `Polymicrobial Systems-Core` module into repository
   * **[Misc]** Dependency upgrades
 
 
@@ -122,7 +122,7 @@
 2016.05.22 / v0.10.0
 ====================
 
-  * **[New]** Raneto Logo
+  * **[New]** Polymicrobial Systems Logo
     - contributed by **@mmamrila**
   * **[New]** Language Translations!
     - Russian contributed by **@iam-medvedev**
@@ -167,7 +167,7 @@
   * **[Fixed]** Windows compatability (use `npm run start_win`)
   * **[New]** Added Login Page to replace HTTP Basic Auth
     - contributed by **@matthiassb**
-  * **[New]** Added ability to run Raneto as a PM2 service
+  * **[New]** Added ability to run Polymicrobial Systems as a PM2 service
     - contributed by **@matthiassb**
   * **[New]** Main Articles is now a category editable in the UI
     - contributed by **@yaruson**
@@ -183,7 +183,7 @@
 
   * **[New]** Theme support. Copy `themes/default/` to `themes/<new name>/` and edit.
   * **[New]** Added toggle for enabling online editing of pages
-  * **[New]** Preparing for Raneto to be NPM-installable (see example/ for new usage)
+  * **[New]** Preparing for Polymicrobial Systems to be NPM-installable (see polymicrobial-systems/ for new usage)
   * **[New]** Codified Bower dependencies into bower.json
   * **[Upgraded]** Upgraded Bower modules in bower.json (current)
   * **[Upgraded]** Upgraded Node.js modules in package.json (current)
@@ -259,7 +259,7 @@
 
 
 
-*** Raneto Core Changelog ***
+*** Polymicrobial Systems Core Changelog ***
 
 2015.04.22 - version 0.3.0
 * [New] Add support for symlinks in content dir

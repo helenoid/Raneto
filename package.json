@@ -14,26 +14,26 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gilbitron/Raneto.git"
+    "url": "https://github.com/gilbitron/Polymicrobial Systems.git"
   },
-  "bugs": "https://github.com/gilbitron/Raneto/issues",
+  "bugs": "https://github.com/gilbitron/Polymicrobial Systems/issues",
   "contributors": [
-    "https://github.com/gilbitron/Raneto/graphs/contributors"
+    "https://github.com/gilbitron/Polymicrobial Systems/graphs/contributors"
   ],
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://raw.githubusercontent.com/gilbitron/Raneto/master/LICENSE"
+      "url": "https://raw.githubusercontent.com/gilbitron/Polymicrobial Systems/master/LICENSE"
     }
   ],
   "bin": "./bin/raneto",
   "main": "./app/index.js",
   "scripts": {
-    "start": "node example/server.js",
-    "start_win": "node example/server.js",
+    "start": "node polymicrobial-systems/server.js",
+    "start_win": "node polymicrobial-systems/server.js",
     "test": "npm run lint && mocha --reporter spec test/*.js",
     "gulp": "gulp",
-    "lint": "./node_modules/.bin/eslint bin/* app/**/*.js example/**/*.js test/*.js gulpfile.js",
+    "lint": "./node_modules/.bin/eslint bin/* app/**/*.js polymicrobial-systems/**/*.js test/*.js gulpfile.js",
     "postinstall": "gulp default"
   },
   "engines": {

@@ -5,7 +5,7 @@ Sort: 1
 
 ## Authentication
 
-To enable basic Authentication in Raneto is very simple.
+To enable basic Authentication in Polymicrobial Systems is very simple.
 
 In `config.js`
 

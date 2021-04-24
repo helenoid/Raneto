@@ -1,12 +1,28 @@
 
 .header {
   color: #CCC;
-  background: #2C323D;
+  background: #561f61;
+}
+
+.container-fluid {
+  max-width: 750px;
 }
 
 .header .container-fluid {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+}
+
+.header .cta-header {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: flex-end;
 }
 
 .header a {
@@ -22,6 +38,10 @@
   margin-left: 20px;
   font-size: 20px;
   line-height: 34px;
+}
+
+.header .logo img {
+  max-height: 80px;
 }
 
 .header .search-form {

@@ -1,8 +1,8 @@
 /*
-Title: Updating Raneto
+Title: Updating Polymicrobial Systems
 */
 
-The update process for Raneto is as follows:
+The update process for Polymicrobial Systems is as follows:
 
 1. Make a backup of your `content` folder and your `config.js` outside of your project.
 
@@ -10,9 +10,9 @@ The update process for Raneto is as follows:
    - the `themes/default/` folder
    - any edited files in the `public` folder
 
-1. Download the latest version of Raneto from the [releases page](https://github.com/gilbitron/Raneto/releases).
+1. Download the latest version of Polymicrobial Systems from the [releases page](https://github.com/gilbitron/Polymicrobial Systems/releases).
 
-1. Extract the Raneto archive to your project folder, replacing all existing files in your existing Raneto install.
+1. Extract the Polymicrobial Systems archive to your project folder, replacing all existing files in your existing Polymicrobial Systems install.
 
 1. Copy your `content` folder and `config.js` file from your backup location back into the install location.
 
@@ -30,4 +30,4 @@ The update process for Raneto is as follows:
    npm start
    ```
 
-You are running the lastest version of Raneto.
+You are running the lastest version of Polymicrobial Systems.

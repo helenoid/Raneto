@@ -32,8 +32,8 @@ describe('#cleanString()', () => {
     contentProcessors.cleanString('Hello World').should.equal('hello-world');
   });
 
-  it('converts "/some/directory-example/hello/" into "some-directory-example-hello"', () => {
-    contentProcessors.cleanString('/some/directory-example/hello/').should.equal('some-directory-example-hello');
+  it('converts "/some/directory-polymicrobial-systems/hello/" into "some-directory-example-hello"', () => {
+    contentProcessors.cleanString('/some/directory-polymicrobial-systems/hello/').should.equal('some-directory-example-hello');
   });
 
   it('converts "with trailing space " into "with-trailing-space"', () => {
@@ -44,8 +44,8 @@ describe('#cleanString()', () => {
     contentProcessors.cleanString('also does underscores', true).should.equal('also_does_underscores');
   });
 
-  it('converts "/some/directory-example/underscores/" into "some_directory_example_underscores"', () => {
-    contentProcessors.cleanString('/some/directory-example/underscores/', true).should.equal('some_directory_example_underscores');
+  it('converts "/some/directory-polymicrobial-systems/underscores/" into "some_directory_example_underscores"', () => {
+    contentProcessors.cleanString('/some/directory-polymicrobial-systems/underscores/', true).should.equal('some_directory_example_underscores');
   });
 
 });
@@ -220,7 +220,7 @@ describe('#getPages()', () => {
   });
 
   it('marks activePageSlug as active', async () => {
-    const result = await contentsHandler('/example-page', config);
+    const result = await contentsHandler('/polymicrobial-systems-page', config);
     expect(result[0]).to.have.property('active', true);
     expect(result[0].files[0]).to.have.property('active', true);
     expect(result[1]).to.have.property('active', false);

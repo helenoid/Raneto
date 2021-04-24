@@ -7,9 +7,9 @@
 // Modules
 const debug = require('debug')('raneto');
 
-// Here is where we load Raneto.
+// Here is where we load Polymicrobial Systems.
 // When you are in your own project repository,
-// Raneto should be installed via NPM and loaded as:
+// Polymicrobial Systems should be installed via NPM and loaded as:
 // var raneto = require('raneto');
 //
 // For development purposes, we load it this way in this example:

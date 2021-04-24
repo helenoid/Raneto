@@ -28,7 +28,7 @@ function route_search (config) {
     var searchResults  = await searchHandler(searchQuery, config);
     var pageListSearch = remove_image_content_directory(config, await contentsHandler(null, config));
 
-    // TODO: Move to Raneto Core
+    // TODO: Move to Polymicrobial Systems Core
     // Loop through Results and Extract Category
     searchResults.forEach(function (result) {
       result.category = null;

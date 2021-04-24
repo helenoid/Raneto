@@ -7,7 +7,7 @@ Thanks for your contributions!
 
 ## Process
 
-1) Fork the Raneto repository
+1) Fork the Polymicrobial Systems repository
 2) Make your edits
 3) Open a Pull Request against the `master` branch ([Here's How](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github#create-pull-request))
 4) Ensure all tests pass in the PR with TravisCI (and hopefully you added a few tests too?)

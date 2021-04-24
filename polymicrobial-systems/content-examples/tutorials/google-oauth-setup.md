@@ -4,17 +4,17 @@ Sort: 3
 */
 
 ## TL;DR
-[Raneto](http://raneto.com/) allows only basic username/password authentication, so I added Google OAuth support. This option can be turned on by setting the `googleoauth` option in the `config.default.js` file to `true`, and by supplying the OAuth config object as outlined in the guides below. Additionally, you can allow only emails from the certain domain to use the service with one config setting.
+[Polymicrobial Systems](http://polymicrobial.systems/) allows only basic username/password authentication, so I added Google OAuth support. This option can be turned on by setting the `googleoauth` option in the `config.default.js` file to `true`, and by supplying the OAuth config object as outlined in the guides below. Additionally, you can allow only emails from the certain domain to use the service with one config setting.
 
 The basic idea was taken from the [Google Cloud Platform Node.js guide](https://github.com/GoogleCloudPlatform/nodejs-getting-started/tree/master/4-auth).
 
-This has been submitted as a [pull request]() on the official Raneto Github repository. This is my way of saying thanks to an awesome author of Raneto.
+This has been submitted as a [pull request]() on the official Polymicrobial Systems Github repository. This is my way of saying thanks to an awesome author of Polymicrobial Systems.
 
 ## Steps on how to reproduce this on fresh copy
-Below are the steps one needs to take to get this working on a fresh copy of Raneto. In case this won't make it to the official repo, you can clone my fork [here](https://github.com/Hitman666/Raneto). Just make sure you set your Google OAuth credentials properly (more about this in the **X** section).
+Below are the steps one needs to take to get this working on a fresh copy of Polymicrobial Systems. In case this won't make it to the official repo, you can clone my fork [here](https://github.com/Hitman666/Polymicrobial Systems). Just make sure you set your Google OAuth credentials properly (more about this in the **X** section).
 
 ### Install packages via npm
-_Make sure you first [install Raneto dependencies](http://docs.raneto.com/install/installing-raneto) after you clone it._
+_Make sure you first [install Polymicrobial Systems dependencies](http://docs.polymicrobial.systems/install/installing-raneto) after you clone it._
 
 Install the following packages:
 
@@ -265,7 +265,7 @@ hostedDomain: config.hostedDomain || '',
 
 We'll define these settings the `config.default.js` file now.
 
-### Editing the `example/config.default.js` file
+### Editing the `polymicrobial-systems/config.default.js` file
 Change/add the following settings:
 
 ```
@@ -335,7 +335,7 @@ Replace the login form with:
 {{/config.googleoauth}}
 ```
 
-We added two scenarios for when we have Google OAuth enabled (`config.googleoauth`) and when we don't (defaulting to the current Raneto behavior).
+We added two scenarios for when we have Google OAuth enabled (`config.googleoauth`) and when we don't (defaulting to the current Polymicrobial Systems behavior).
 
 ### Editing the `themes/default/templates/login.html` file
 Add zocial reference:
@@ -366,7 +366,7 @@ Replace the whole `form-bottom` classed div with the following code:
 </div>
 ```
 
-Same thing here as well. If we have Google OAuth enabled (`config.googleoauth`) then we show the new Google login button and hide the rest. Otherwise, we default it to the current Raneto behavior.
+Same thing here as well. If we have Google OAuth enabled (`config.googleoauth`) then we show the new Google login button and hide the rest. Otherwise, we default it to the current Polymicrobial Systems behavior.
 
 ## Testing
 Congratulations, you're done! Now, to test this locally just run the `npm start` from the root of your project and go to `http://localhost:3000` and you should see this:

@@ -3,7 +3,7 @@ Title: Requirements
 Sort: 1
 */
 
-To run Raneto you need to have the following:
+To run Polymicrobial Systems you need to have the following:
 
 * [Node.js](http://nodejs.org) **v10.22.1** (or later)
 

@@ -3,7 +3,7 @@ Title: Configuration
 Sort: 1
 */
 
-To edit the configuration of Raneto you need to edit `config.js` in the root directory.
+To edit the configuration of Polymicrobial Systems you need to edit `config.js` in the root directory.
 It should contain config variables like:
 
 ```

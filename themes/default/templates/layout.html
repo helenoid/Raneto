@@ -29,9 +29,16 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-6">
-          <a href="{{config.base_url}}/" class="logo">{{config.site_title}}</a>
+          <a href="{{config.base_url}}/" class="logo"><img src="{{config.base_url}}/favicon.ico"/>{{config.site_title}}</a>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 cta-header">
+          <form class="search-form form-inline float-right" action="{{config.base_url}}/">
+            <div class="form-group">
+              <label class="sr-only" for="search">{{lang.global.search}}</label>
+              <input type="search" class="form-control" name="search" id="search" size="30" value="{{search}}" placeholder="{{lang.global.search}}">
+            </div>
+          </form>
+          
           {{#config.googleoauth}}
           <form class="form-inline float-right">
             {{#config.authentication}} {{#loggedIn}} &nbsp;
@@ -62,12 +69,6 @@
           </form>
           {{/config.googleoauth}}
           
-          <form class="search-form form-inline float-right" action="{{config.base_url}}/">
-            <div class="form-group">
-              <label class="sr-only" for="search">{{lang.global.search}}</label>
-              <input type="search" class="form-control" name="search" id="search" size="30" value="{{search}}" placeholder="{{lang.global.search}}">
-            </div>
-          </form>
         </div>
       </div>
     </div>

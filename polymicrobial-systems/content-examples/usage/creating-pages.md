@@ -3,7 +3,7 @@ Title: Creating Pages
 Sort: 2
 */
 
-Creating pages in Raneto is as simple as creating a Markdown file (`.md`) with you favourite text editor.
+Creating pages in Polymicrobial Systems is as simple as creating a Markdown file (`.md`) with you favourite text editor.
 There are several important aspects to your files that you need to pay attention to when you create pages.
 
 ## File Location
@@ -14,7 +14,7 @@ configured in `config.js`). You can add as many sub-folders as you like in the c
 
 You can use sub-folders as a way of creating "categories" of pages. For example if you create a sub-folder
 called `using-my-product` all of the pages inside that folder will appear under the **Using My Product**
-category in Raneto. You can create as many levels of sub-folder as you like but they will always appear
+category in Polymicrobial Systems. You can create as many levels of sub-folder as you like but they will always appear
 as a top level category.
 
 Sub-folders will also be added to the page URL or "slug". See file naming below for more information.
@@ -23,7 +23,7 @@ Sub-folders will also be added to the page URL or "slug". See file naming below 
 
 The name of the file defines what URL or "slug" is used to navigate to that page. For example if you create
 a file called `my-example-page.md` you would visit that page be navigation to `example.com/my-example-page`.
-Below is a table of example folder and file names and the URL's they would have in Raneto.
+Below is a table of example folder and file names and the URL's they would have in Polymicrobial Systems.
 
 File Location | URL
 ------------- | -------------

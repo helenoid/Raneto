@@ -21,7 +21,7 @@ program
 
 program
   .command('start')
-  .description('Start Raneto Service')
+  .description('Start Polymicrobial Systems Service')
   .action(function () {
     pm2.connect(function () {
       pm2.start({
@@ -32,9 +32,9 @@ program
       },
       function (error, apps) {
         if (error) {
-          console.log('Raneto Failed to Start: ' + error.msg);
+          console.log('Polymicrobial Systems Failed to Start: ' + error.msg);
         } else {
-          console.log('Raneto Service Started.');
+          console.log('Polymicrobial Systems Service Started.');
         }
         pm2.disconnect();
       });
@@ -44,20 +44,20 @@ program
 
 program
   .command('stop')
-  .description('Stop Raneto Service')
+  .description('Stop Polymicrobial Systems Service')
   .action(function () {
     pm2.connect(function () {
       pm2.stop('raneto', function (error, proc) {
         if (error) {
-          console.log('Raneto could not be stopped: ' + error.msg);
+          console.log('Polymicrobial Systems could not be stopped: ' + error.msg);
           process.exit(1);
         }
         pm2.delete('raneto', function (error, proc) {
           if (error) {
-            console.log('Raneto could not be stopped: ' + error.msg);
+            console.log('Polymicrobial Systems could not be stopped: ' + error.msg);
             process.exit(1);
           } else {
-            console.log('Raneto Stopped');
+            console.log('Polymicrobial Systems Stopped');
             process.exit(0);
           }
         });
@@ -67,15 +67,15 @@ program
 
 program
   .command('restart')
-  .description('Restart Raneto Service')
+  .description('Restart Polymicrobial Systems Service')
   .action(function () {
     pm2.connect(function () {
       pm2.restart('raneto', function (error, proc) {
         if (error) {
-          console.log('Raneto could not be restarted: ' + error.msg);
+          console.log('Polymicrobial Systems could not be restarted: ' + error.msg);
           process.exit(1);
         } else {
-          console.log('Raneto restarted');
+          console.log('Polymicrobial Systems restarted');
           process.exit(0);
         }
       });
@@ -84,7 +84,7 @@ program
 
 program
   .command('logs')
-  .description('Show Raneto Logs')
+  .description('Show Polymicrobial Systems Logs')
   .action(function () {
     pm2.connect(function () {
       pm2.describe('raneto', function (error, list) {
@@ -92,7 +92,7 @@ program
           console.log('Error getting info: ' + error.msg);
           process.exit(1);
         } else if (list.length === 0) {
-          console.log('Raneto not running');
+          console.log('Polymicrobial Systems not running');
           process.exit(0);
         } else {
 

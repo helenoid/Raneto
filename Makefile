@@ -26,7 +26,7 @@ delint:
 	./node_modules/.bin/eslint \
 		./app/**/*.js      \
 		./bin/*            \
-		./example/**/*.js  \
+		./polymicrobial-systems/**/*.js  \
 		./test/*.js        \
 		./gulpfile.js;
 
@@ -44,7 +44,7 @@ build:
 start:
 
 	# Start HTTP Server
-	node example/server.js
+	node polymicrobial-systems/server.js
 
 .PHONY: deploy
 deploy:

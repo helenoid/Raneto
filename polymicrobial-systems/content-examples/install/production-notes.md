@@ -17,7 +17,7 @@ You can change the listening port anytime by setting the environment variable in
 ## Listening Host Address / IP
 
 ### Defaults
-Raneto listens only to localhost (`127.0.0.1`) traffic by default now (v0.17.0).  
+Polymicrobial Systems listens only to localhost (`127.0.0.1`) traffic by default now (v0.17.0).  
 This is to prevent unintended exposure and access of your documentation from older versions.  
 Previous versions before v0.17.0 would bind to all IP addresses, which could accidentally make documents available on the public internet.  
 

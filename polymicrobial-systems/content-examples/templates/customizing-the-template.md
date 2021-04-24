@@ -2,7 +2,7 @@
 Title: Customizing the Template
 */
 
-Templating in Raneto is powered by [Mustache](http://mustache.github.io). All of the template views can
+Templating in Polymicrobial Systems is powered by [Mustache](http://mustache.github.io). All of the template views can
 be found in the `themes/default/` folder. Feel free to customize the template as you wish. The template structure
 is as follows:
 
@@ -10,7 +10,7 @@ is as follows:
 * `home.html`: The homepage template. Shown if you don't have an [index.md](%base_url%/usage/custom-homepage)
 * `page.html`: The template used for single pages
 * `search.html`: The template used for search results
-* `error.html`: Shown when Raneto encounters an error or can't find a page
+* `error.html`: Shown when Polymicrobial Systems encounters an error or can't find a page
 
 Remember you will need to restart the app after changing the template.
 
@@ -20,7 +20,7 @@ Some features can be enabled on your pages by changing settings in the `config.d
 
 ### Enable Table of Contents
 
-In `config.default.js` set `table_of_contents` to `true`. Raneto uses [markdown-toc](https://github.com/jonschlinkert/markdown-toc) to generate the table of contents on pages, so you can customize the apperance of the tables of contents by specifying values for parameters in the `table_of_contents_options` object in `config.default.js`.
+In `config.default.js` set `table_of_contents` to `true`. Polymicrobial Systems uses [markdown-toc](https://github.com/jonschlinkert/markdown-toc) to generate the table of contents on pages, so you can customize the apperance of the tables of contents by specifying values for parameters in the `table_of_contents_options` object in `config.default.js`.
 
 ### Display Site Menu on Pages
 
@@ -28,13 +28,13 @@ In `config.default.js` set `menu_on_pages` to `true`. To make the menu collapsib
 
 ## Public Files
 
-All static files in Raneto (images, CSS, Javascript files etc.) are served from the `public` folder. This
+All static files in Polymicrobial Systems (images, CSS, Javascript files etc.) are served from the `public` folder. This
 is so that no one can access any other files in the install. Only files in the `public` folder are available
 to the public.
 
-It's worth noting that when customising Raneto you should always make your own files rather than customising
-the existing Raneto files, so that your changes don't get lost when you
-[update Raneto](%base_url%/updates/updating-raneto).
+It's worth noting that when customising Polymicrobial Systems you should always make your own files rather than customising
+the existing Polymicrobial Systems files, so that your changes don't get lost when you
+[update Polymicrobial Systems](%base_url%/updates/updating-raneto).
 
 ## Template Variables
 
