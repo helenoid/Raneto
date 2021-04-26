@@ -38,7 +38,7 @@
               <input type="search" class="form-control" name="search" id="search" size="30" value="{{search}}" placeholder="{{lang.global.search}}">
             </div>
           </form>
-          
+
           {{#config.googleoauth}}
           <form class="form-inline float-right">
             {{#config.authentication}} {{#loggedIn}} &nbsp;
@@ -63,7 +63,7 @@
                 </div>
               {{/loggedIn}}
               {{^loggedIn}}
-                &nbsp;<a href="{{config.base_url}}/login" class="btn btn-info">{{lang.login.login}}</a>
+                <div class="form-group"><a href="{{config.base_url}}/login" class="btn btn-info">{{lang.login.login}}</a></form></div>
               {{/loggedIn}}
             {{/config.authentication}}
           </form>
